@@ -5,9 +5,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "nodemon server.js",
-    "client":"npm start --prefix client",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\"\"npm run client\"",
-    "heroku-postbulid":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+    "heroku-postbulid": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +17,7 @@
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "netlify": "^10.1.0",
     "nodemailer": "^6.7.2",
     "nodemon": "^2.0.15"
   }
